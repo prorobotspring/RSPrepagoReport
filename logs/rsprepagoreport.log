@@ -1,0 +1,908 @@
+[2014Jun04 10:05:58,656][INFO ][][configurarLogger BSSIntLogger.java:67][APLICACION: RSPrepagoReport - VERSION: 1.0]
+[2014Jun04 10:05:58,677][INFO ][][configurarLogger BSSIntLogger.java:69][DESCRIPCION: Servicios de Integracion - Recarga de Saldo Prepago - Reporte]
+[2014Jun04 10:05:58,721][INFO ][][init MailController.java:116][---disponibleRecargasOpcion= False]
+[2014Jun04 10:05:58,727][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:50][Iniciando proceso de compilacion de comando: <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Recargas Web</title>
+</head>
+<body>
+<table style="font-family: Arial; font-size: 12px;" width="100%">
+	<tr>
+		<td style="font-size: 14px;">Resultado de las Recargas otras Instituciones (INTERCABLE) realizadas hasta el día ${fecha}</td>
+	</tr>
+	<tr>
+		<td><br />
+		<table border="1" align="center" cellpadding="1" cellspacing="1"
+			style="border-collapse: collapse;" width="500px">
+			<tr>
+				<th colspan="5" bgcolor="#D50032" style="color: White">Recargas a InterCable</th>
+			</tr>
+			<tr style="color: White">
+				<th bgcolor="#EEEEEE"></th>
+				<th bgcolor="5C068C" width="60px">Abonado</th>
+				<th bgcolor="5C068C" width="60px">Tarjetas</th>
+				<th bgcolor="5C068C" width="60px">% Tarjetas</th>
+			</tr>
+			
+]
+[2014Jun04 10:05:58,730][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:83][Componente CONSTANTE encontrado: <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Recargas Web</title>
+</head>
+<body>
+<table style="font-family: Arial; font-size: 12px;" width="100%">
+	<tr>
+		<td style="font-size: 14px;">Resultado de las Recargas otras Instituciones (INTERCABLE) realizadas hasta el día ]
+[2014Jun04 10:05:58,733][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: fecha]
+[2014Jun04 10:05:58,736][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </td>
+	</tr>
+	<tr>
+		<td><br />
+		<table border="1" align="center" cellpadding="1" cellspacing="1"
+			style="border-collapse: collapse;" width="500px">
+			<tr>
+				<th colspan="5" bgcolor="#D50032" style="color: White">Recargas a InterCable</th>
+			</tr>
+			<tr style="color: White">
+				<th bgcolor="#EEEEEE"></th>
+				<th bgcolor="5C068C" width="60px">Abonado</th>
+				<th bgcolor="5C068C" width="60px">Tarjetas</th>
+				<th bgcolor="5C068C" width="60px">% Tarjetas</th>
+			</tr>
+			
+]
+[2014Jun04 10:05:58,740][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:50][Iniciando proceso de compilacion de comando: 			<tr bgcolor="White">
+				<td><b>Total general</b></td>
+				<td align="right" width="60px"><b>${TotalGSM}</b></td>
+				<!--<td align="right" width="60px"><b>${PorcentajeTotalGSM}%</b></td>-->
+				<td align="right" width="60px"><b>${TotalTarjeta}</b></td>
+				<td align="right" width="60px"><b>${PorcentajeTotalTar}%</b></td>
+			</tr>		
+		</table>
+		<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<table border="1" align="center" cellpadding="1" cellspacing="1"
+			style="border-collapse: collapse;" width="500px">
+			<tr>
+				<th colspan="5" bgcolor="#D50032" style="color: White">Montos recargados</th>
+			</tr>
+			<tr style="color: White">
+				<th bgcolor="#EEEEEE"></th>
+				<th bgcolor="#D50032" width="60px">Tarjetas</th>
+				<!--<th bgcolor="#D50032" width="60px">%</th>-->
+				<th bgcolor="#D50032" width="60px">Monto</th>
+				<!--<th bgcolor="#D50032" width="60px">%</th>-->
+				<th bgcolor="#D50032" width="60px">% Monto</th>
+			</tr>]
+[2014Jun04 10:05:58,744][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:83][Componente CONSTANTE encontrado: 			<tr bgcolor="White">
+				<td><b>Total general</b></td>
+				<td align="right" width="60px"><b>]
+[2014Jun04 10:05:58,746][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: TotalGSM]
+[2014Jun04 10:05:58,749][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </b></td>
+				<!--<td align="right" width="60px"><b>]
+[2014Jun04 10:05:58,752][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: PorcentajeTotalGSM]
+[2014Jun04 10:05:58,754][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: %</b></td>-->
+				<td align="right" width="60px"><b>]
+[2014Jun04 10:05:58,757][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: TotalTarjeta]
+[2014Jun04 10:05:58,760][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </b></td>
+				<td align="right" width="60px"><b>]
+[2014Jun04 10:05:58,763][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: PorcentajeTotalTar]
+[2014Jun04 10:05:58,765][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: %</b></td>
+			</tr>		
+		</table>
+		<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<table border="1" align="center" cellpadding="1" cellspacing="1"
+			style="border-collapse: collapse;" width="500px">
+			<tr>
+				<th colspan="5" bgcolor="#D50032" style="color: White">Montos recargados</th>
+			</tr>
+			<tr style="color: White">
+				<th bgcolor="#EEEEEE"></th>
+				<th bgcolor="#D50032" width="60px">Tarjetas</th>
+				<!--<th bgcolor="#D50032" width="60px">%</th>-->
+				<th bgcolor="#D50032" width="60px">Monto</th>
+				<!--<th bgcolor="#D50032" width="60px">%</th>-->
+				<th bgcolor="#D50032" width="60px">% Monto</th>
+			</tr>]
+[2014Jun04 10:05:58,769][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:50][Iniciando proceso de compilacion de comando: 			<tr bgcolor="White">
+				<td><b>Total recargado (Bs.)</b></td>
+				<td align="right" width="60px"><b>${TotalTarjetas}</b></td>
+				<td align="right" width="60px"><b>${MontoRecargado}</b></td>				
+				<td align="right" width="60px"><b>${PorcentajeTotalC}%</b></td>
+			</tr>
+		</table>
+		<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<table border="1" align="center" cellpadding="1" cellspacing="1"
+			style="border-collapse: collapse;" width="500px">
+			<tr>
+				<th colspan="3" bgcolor="#D50032" style="color: White">Categorías
+				de recargas exitosas</th>
+			</tr>
+			<tr style="color: White">
+				<th bgcolor="#EEEEEE"></th>
+				<th bgcolor="#D50032" width="60px">Total</th>
+				<th bgcolor="#D50032" width="60px">%</th>
+			</tr>]
+[2014Jun04 10:05:58,772][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:83][Componente CONSTANTE encontrado: 			<tr bgcolor="White">
+				<td><b>Total recargado (Bs.)</b></td>
+				<td align="right" width="60px"><b>]
+[2014Jun04 10:05:58,775][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: TotalTarjetas]
+[2014Jun04 10:05:58,778][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </b></td>
+				<td align="right" width="60px"><b>]
+[2014Jun04 10:05:58,781][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: MontoRecargado]
+[2014Jun04 10:05:58,783][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </b></td>				
+				<td align="right" width="60px"><b>]
+[2014Jun04 10:05:58,786][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: PorcentajeTotalC]
+[2014Jun04 10:05:58,789][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: %</b></td>
+			</tr>
+		</table>
+		<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<table border="1" align="center" cellpadding="1" cellspacing="1"
+			style="border-collapse: collapse;" width="500px">
+			<tr>
+				<th colspan="3" bgcolor="#D50032" style="color: White">Categorías
+				de recargas exitosas</th>
+			</tr>
+			<tr style="color: White">
+				<th bgcolor="#EEEEEE"></th>
+				<th bgcolor="#D50032" width="60px">Total</th>
+				<th bgcolor="#D50032" width="60px">%</th>
+			</tr>]
+[2014Jun04 10:05:58,792][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:50][Iniciando proceso de compilacion de comando: 			<tr bgcolor="${ColorRegistro}">
+				<td width="390px">${Categoria}</td>
+				<td align="right" width="60px">${Cantidad}</td>
+				<td align="right" width="60px">${Porcentaje}%</td>
+			</tr>
+]
+[2014Jun04 10:05:58,795][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:83][Componente CONSTANTE encontrado: 			<tr bgcolor="]
+[2014Jun04 10:05:58,797][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: ColorRegistro]
+[2014Jun04 10:05:58,800][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: ">
+				<td width="390px">]
+[2014Jun04 10:05:58,802][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: Categoria]
+[2014Jun04 10:05:58,804][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </td>
+				<td align="right" width="60px">]
+[2014Jun04 10:05:58,807][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: Cantidad]
+[2014Jun04 10:05:58,809][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </td>
+				<td align="right" width="60px">]
+[2014Jun04 10:05:58,811][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: Porcentaje]
+[2014Jun04 10:05:58,813][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: %</td>
+			</tr>
+]
+[2014Jun04 10:05:58,815][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:50][Iniciando proceso de compilacion de comando: 			<tr bgcolor="White">
+				<td width="390px"><b>${Categoria}</b></td>
+				<td align="right" width="60px"><b>${Cantidad}</b></td>
+				<td align="right" width="60px"><b>${Porcentaje}%</b></td>
+			</tr>
+]
+[2014Jun04 10:05:58,817][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:83][Componente CONSTANTE encontrado: 			<tr bgcolor="White">
+				<td width="390px"><b>]
+[2014Jun04 10:05:58,818][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: Categoria]
+[2014Jun04 10:05:58,820][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </b></td>
+				<td align="right" width="60px"><b>]
+[2014Jun04 10:05:58,822][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: Cantidad]
+[2014Jun04 10:05:58,824][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </b></td>
+				<td align="right" width="60px"><b>]
+[2014Jun04 10:05:58,825][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: Porcentaje]
+[2014Jun04 10:05:58,827][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: %</b></td>
+			</tr>
+]
+[2014Jun04 10:05:58,829][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:50][Iniciando proceso de compilacion de comando: 			<tr bgcolor="White">
+				<td><b>${TotalPorCanal}</b></td>
+				<td align="right" width="60px"><b>${SubtotalGSM}</b></td>
+				<td align="right" width="60px"><b>${SubtotalTarjeta}</b></td>
+				<td align="right" width="60px"><b>${PorcentajeSubtotalTar}%</b></td>
+			</tr>
+			<tr bgcolor="#DCDCDC">
+				<td>${ExitoPorCanal}</td>
+				<td align="right" width="60px">${ExitoGSM}</td>
+				<td align="right" width="60px">${ExitoTarjeta}</td>
+				<td align="right" width="60px">${PorcentajeExTar}%</td>
+			</tr>
+			<tr bgcolor="$#EEEEEE">
+				<td>${FallaPorCanal}</td>
+				<td align="right" width="60px">${FallaGSM}</td>
+				<td align="right" width="60px">${FallaTarjeta}</td>
+				<td align="right" width="60px">${PorcentajeFaTar}%</td>
+			</tr>]
+[2014Jun04 10:05:58,831][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:83][Componente CONSTANTE encontrado: 			<tr bgcolor="White">
+				<td><b>]
+[2014Jun04 10:05:58,833][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: TotalPorCanal]
+[2014Jun04 10:05:58,835][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </b></td>
+				<td align="right" width="60px"><b>]
+[2014Jun04 10:05:58,837][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: SubtotalGSM]
+[2014Jun04 10:05:58,838][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </b></td>
+				<td align="right" width="60px"><b>]
+[2014Jun04 10:05:58,840][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: SubtotalTarjeta]
+[2014Jun04 10:05:58,842][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </b></td>
+				<td align="right" width="60px"><b>]
+[2014Jun04 10:05:58,843][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: PorcentajeSubtotalTar]
+[2014Jun04 10:05:58,845][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: %</b></td>
+			</tr>
+			<tr bgcolor="#DCDCDC">
+				<td>]
+[2014Jun04 10:05:58,846][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: ExitoPorCanal]
+[2014Jun04 10:05:58,848][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </td>
+				<td align="right" width="60px">]
+[2014Jun04 10:05:58,850][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: ExitoGSM]
+[2014Jun04 10:05:58,851][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </td>
+				<td align="right" width="60px">]
+[2014Jun04 10:05:58,853][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: ExitoTarjeta]
+[2014Jun04 10:05:58,855][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </td>
+				<td align="right" width="60px">]
+[2014Jun04 10:05:58,856][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: PorcentajeExTar]
+[2014Jun04 10:05:58,858][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: %</td>
+			</tr>
+			<tr bgcolor="]
+[2014Jun04 10:05:58,859][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:83][Componente CONSTANTE encontrado: #EEEEEE">
+				<td>]
+[2014Jun04 10:05:58,861][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: FallaPorCanal]
+[2014Jun04 10:05:58,863][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </td>
+				<td align="right" width="60px">]
+[2014Jun04 10:05:58,864][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: FallaGSM]
+[2014Jun04 10:05:58,866][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </td>
+				<td align="right" width="60px">]
+[2014Jun04 10:05:58,867][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: FallaTarjeta]
+[2014Jun04 10:05:58,869][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </td>
+				<td align="right" width="60px">]
+[2014Jun04 10:05:58,871][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: PorcentajeFaTar]
+[2014Jun04 10:05:58,872][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: %</td>
+			</tr>]
+[2014Jun04 10:05:58,874][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:50][Iniciando proceso de compilacion de comando: 			<tr bgcolor="${ColorRegistro}">
+				<td width="420px">${Categoria}</td>
+				<td align="right" width="60px">${Tarjetas}</td>
+				<td align="right" width="60px">${Cantidad}</td>
+				<td align="right" width="60px">${PorcentajeC}%</td>
+			</tr>
+]
+[2014Jun04 10:05:58,876][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:83][Componente CONSTANTE encontrado: 			<tr bgcolor="]
+[2014Jun04 10:05:58,878][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: ColorRegistro]
+[2014Jun04 10:05:58,880][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: ">
+				<td width="420px">]
+[2014Jun04 10:05:58,881][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: Categoria]
+[2014Jun04 10:05:58,883][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </td>
+				<td align="right" width="60px">]
+[2014Jun04 10:05:58,884][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: Tarjetas]
+[2014Jun04 10:05:58,886][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </td>
+				<td align="right" width="60px">]
+[2014Jun04 10:05:58,888][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: Cantidad]
+[2014Jun04 10:05:58,889][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </td>
+				<td align="right" width="60px">]
+[2014Jun04 10:05:58,891][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: PorcentajeC]
+[2014Jun04 10:05:58,892][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: %</td>
+			</tr>
+]
+[2014Jun04 10:05:58,894][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:50][Iniciando proceso de compilacion de comando: 			<tr bgcolor="White">
+			    <b>
+				<td width="420px"><b>${Categoria}</b></td>
+				<td align="right" width="60px"><b>${Tarjetas}</b></td>
+				<td align="right" width="60px"><b>${Cantidad}</b></td>
+				<td align="right" width="60px"><b>${PorcentajeC}%</b></td>
+				</b>
+			</tr>
+]
+[2014Jun04 10:05:58,896][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:83][Componente CONSTANTE encontrado: 			<tr bgcolor="White">
+			    <b>
+				<td width="420px"><b>]
+[2014Jun04 10:05:58,897][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: Categoria]
+[2014Jun04 10:05:58,899][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </b></td>
+				<td align="right" width="60px"><b>]
+[2014Jun04 10:05:58,900][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: Tarjetas]
+[2014Jun04 10:05:58,902][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </b></td>
+				<td align="right" width="60px"><b>]
+[2014Jun04 10:05:58,903][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: Cantidad]
+[2014Jun04 10:05:58,905][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </b></td>
+				<td align="right" width="60px"><b>]
+[2014Jun04 10:05:58,907][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: PorcentajeC]
+[2014Jun04 10:05:58,908][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: %</b></td>
+				</b>
+			</tr>
+]
+[2014Jun04 10:05:58,910][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:50][Iniciando proceso de compilacion de comando: 			<tr bgcolor="White">
+				<td ><b>${Categoria}</b></td>
+				<td align="right" width="60px"><b>${Cantidad}</b></td>
+				<td align="right" width="60px"><b>${Porcentaje}%</b></td>
+			</tr>
+			<tr bgcolor="#EEEEEE">
+				<td>Bloqueos por monto de recarga excedido (Bs. ${montoRecarga})</td>
+				<td align="right" width="60px">${BloqueoMonto}</td>
+				<td align="right" width="60px">${PorcentajeBM}%</td>
+			</tr>
+			<tr bgcolor="#DCDCDC">
+				<td>Bloqueos por cantidad de recargas fallidas (${fallas})</td>
+				<td align="right" width="60px">${BloqueoFalla}</td>
+				<td align="right" width="60px">${PorcentajeBF}%</td>
+			</tr>]
+[2014Jun04 10:05:58,912][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:83][Componente CONSTANTE encontrado: 			<tr bgcolor="White">
+				<td ><b>]
+[2014Jun04 10:05:58,913][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: Categoria]
+[2014Jun04 10:05:58,915][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </b></td>
+				<td align="right" width="60px"><b>]
+[2014Jun04 10:05:58,916][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: Cantidad]
+[2014Jun04 10:05:58,918][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </b></td>
+				<td align="right" width="60px"><b>]
+[2014Jun04 10:05:58,920][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: Porcentaje]
+[2014Jun04 10:05:58,921][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: %</b></td>
+			</tr>
+			<tr bgcolor="#EEEEEE">
+				<td>Bloqueos por monto de recarga excedido (Bs. ]
+[2014Jun04 10:05:58,923][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: montoRecarga]
+[2014Jun04 10:05:58,924][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: )</td>
+				<td align="right" width="60px">]
+[2014Jun04 10:05:58,926][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: BloqueoMonto]
+[2014Jun04 10:05:58,927][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </td>
+				<td align="right" width="60px">]
+[2014Jun04 10:05:58,929][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: PorcentajeBM]
+[2014Jun04 10:05:58,930][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: %</td>
+			</tr>
+			<tr bgcolor="#DCDCDC">
+				<td>Bloqueos por cantidad de recargas fallidas (]
+[2014Jun04 10:05:58,932][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: fallas]
+[2014Jun04 10:05:58,933][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: )</td>
+				<td align="right" width="60px">]
+[2014Jun04 10:05:58,935][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: BloqueoFalla]
+[2014Jun04 10:05:58,950][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </td>
+				<td align="right" width="60px">]
+[2014Jun04 10:05:58,951][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: PorcentajeBF]
+[2014Jun04 10:05:58,953][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: %</td>
+			</tr>]
+[2014Jun04 10:05:58,956][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:50][Iniciando proceso de compilacion de comando: 		</table>
+		<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<table border="1" align="center" cellpadding="1" cellspacing="1"
+			style="border-collapse: collapse;" width="500px">
+			<tr>
+				<th colspan="3" bgcolor="#D50032" style="color: White">GSM
+				bloqueados</th>
+			</tr>
+			<tr style="color: White">
+				<th bgcolor="#EEEEEE"></th>
+				<th bgcolor="#D50032" width="60px">Total</th>
+				<th bgcolor="#D50032" width="60px">%</th>
+			</tr>
+			
+]
+[2014Jun04 10:05:58,957][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:83][Componente CONSTANTE encontrado: 		</table>
+		<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<table border="1" align="center" cellpadding="1" cellspacing="1"
+			style="border-collapse: collapse;" width="500px">
+			<tr>
+				<th colspan="3" bgcolor="#D50032" style="color: White">GSM
+				bloqueados</th>
+			</tr>
+			<tr style="color: White">
+				<th bgcolor="#EEEEEE"></th>
+				<th bgcolor="#D50032" width="60px">Total</th>
+				<th bgcolor="#D50032" width="60px">%</th>
+			</tr>
+			
+]
+[2014Jun04 10:05:58,959][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:50][Iniciando proceso de compilacion de comando: 		</table>
+		<br />
+		<hr />
+		</td>
+	</tr>
+</table>
+</body>
+</html>]
+[2014Jun04 10:05:58,961][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:83][Componente CONSTANTE encontrado: 		</table>
+		<br />
+		<hr />
+		</td>
+	</tr>
+</table>
+</body>
+</html>]
+[2014Jun04 10:05:58,963][INFO ][][init MailController.java:205][Se Cargaron todos los datos de ConfiProperties]
+[2014Jun04 10:05:58,964][INFO ][][execute MailController.java:217][Inicio de generacion de reporte de Recargas Web]
+[2014Jun04 10:06:06,052][DEBUG][][execute DBListReportDelegator.java:92][Se obtuvo la conexion al DataSource. Accesando a la Base de Datos]
+[2014Jun04 10:06:11,398][INFO ][][execute DBListReportDelegator.java:108][Delegator DBListReportDelegator executado con exito]
+[2014Jun04 10:06:11,537][DEBUG][][execute DBReportDelegator.java:88][Se obtuvo la conexion al DataSource. Accesando a la Base de Datos]
+[2014Jun04 10:06:11,693][INFO ][][execute DBReportDelegator.java:97][Delegator DBReportDelegator executado con exito]
+[2014Jun04 10:06:11,769][DEBUG][][execute DBListReportDelegator.java:92][Se obtuvo la conexion al DataSource. Accesando a la Base de Datos]
+[2014Jun04 10:06:11,885][INFO ][][execute DBListReportDelegator.java:108][Delegator DBListReportDelegator executado con exito]
+[2014Jun04 10:06:11,890][INFO ][][execute MailController.java:221][ReporteVO creado con exito, se procedera a crear el text/html]
+[2014Jun04 10:06:11,913][DEBUG][][assembly NameSustitutionCmdAdapter.java:201][Ensamblando lista de COMPONENTES para la construccion del COMANDO]
+[2014Jun04 10:06:11,984][DEBUG][][execute DBReportDelegator.java:88][Se obtuvo la conexion al DataSource. Accesando a la Base de Datos]
+[2014Jun04 10:06:12,102][INFO ][][execute DBReportDelegator.java:97][Delegator DBReportDelegator executado con exito]
+[2014Jun04 10:06:12,163][DEBUG][][execute DBReportDelegator.java:88][Se obtuvo la conexion al DataSource. Accesando a la Base de Datos]
+[2014Jun04 10:06:12,253][INFO ][][execute DBReportDelegator.java:97][Delegator DBReportDelegator executado con exito]
+[2014Jun04 10:06:12,314][DEBUG][][execute DBReportDelegator.java:88][Se obtuvo la conexion al DataSource. Accesando a la Base de Datos]
+[2014Jun04 10:06:12,422][INFO ][][execute DBReportDelegator.java:97][Delegator DBReportDelegator executado con exito]
+[2014Jun04 10:06:12,464][DEBUG][][execute DBReportDelegator.java:88][Se obtuvo la conexion al DataSource. Accesando a la Base de Datos]
+[2014Jun04 10:06:12,519][INFO ][][execute DBReportDelegator.java:97][Delegator DBReportDelegator executado con exito]
+[2014Jun04 10:06:12,557][DEBUG][][execute DBReportDelegator.java:88][Se obtuvo la conexion al DataSource. Accesando a la Base de Datos]
+[2014Jun04 10:06:12,610][INFO ][][execute DBReportDelegator.java:97][Delegator DBReportDelegator executado con exito]
+[2014Jun04 10:06:12,645][DEBUG][][execute DBReportDelegator.java:88][Se obtuvo la conexion al DataSource. Accesando a la Base de Datos]
+[2014Jun04 10:06:12,697][INFO ][][execute DBReportDelegator.java:97][Delegator DBReportDelegator executado con exito]
+[2014Jun04 10:06:12,701][DEBUG][][assembly NameSustitutionCmdAdapter.java:201][Ensamblando lista de COMPONENTES para la construccion del COMANDO]
+[2014Jun04 10:06:12,703][DEBUG][][assembly NameSustitutionCmdAdapter.java:201][Ensamblando lista de COMPONENTES para la construccion del COMANDO]
+[2014Jun04 10:06:12,704][DEBUG][][assembly NameSustitutionCmdAdapter.java:201][Ensamblando lista de COMPONENTES para la construccion del COMANDO]
+[2014Jun04 10:06:12,706][DEBUG][][assembly NameSustitutionCmdAdapter.java:201][Ensamblando lista de COMPONENTES para la construccion del COMANDO]
+[2014Jun04 10:06:12,707][INFO ][][buildBody MailController.java:506][-----ANTES---if(disponibleRecargasOpcion.equalsIgnoreCase(True))]
+[2014Jun04 10:06:12,709][DEBUG][][assembly NameSustitutionCmdAdapter.java:201][Ensamblando lista de COMPONENTES para la construccion del COMANDO]
+[2014Jun04 10:06:12,710][DEBUG][][assembly NameSustitutionCmdAdapter.java:201][Ensamblando lista de COMPONENTES para la construccion del COMANDO]
+[2014Jun04 10:06:12,711][DEBUG][][assembly NameSustitutionCmdAdapter.java:201][Ensamblando lista de COMPONENTES para la construccion del COMANDO]
+[2014Jun04 10:06:12,712][DEBUG][][assembly NameSustitutionCmdAdapter.java:201][Ensamblando lista de COMPONENTES para la construccion del COMANDO]
+[2014Jun04 10:06:12,713][INFO ][][execute MailController.java:225][Correo construido con exito en formato html]
+[2014Jun04 10:06:13,463][DEBUG][][doPost EmailDelegator.java:59][El mensaje para: diego_leal@digitel.com.ve;carlos_perdigon@digitel.com.ve;Douglas_Uzcategui@digitel.com.ve;Naila_Carvajal@digitel.com.ve; se envÃ­o satisfactoriamente.]
+[2014Jun04 10:06:13,464][INFO ][][execute MailController.java:230][Email enviado con exito]
+[2014Jun04 10:09:32,357][INFO ][][configurarLogger BSSIntLogger.java:67][APLICACION: RSPrepagoReport - VERSION: 1.0]
+[2014Jun04 10:09:32,378][INFO ][][configurarLogger BSSIntLogger.java:69][DESCRIPCION: Servicios de Integracion - Recarga de Saldo Prepago - Reporte]
+[2014Jun04 10:09:32,422][INFO ][][init MailController.java:116][---disponibleRecargasOpcion= False]
+[2014Jun04 10:09:32,428][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:50][Iniciando proceso de compilacion de comando: <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Recargas Web</title>
+</head>
+<body>
+<table style="font-family: Arial; font-size: 12px;" width="100%">
+	<tr>
+		<td style="font-size: 14px;">Resultado de las Recargas otras Instituciones (INTERCABLE) realizadas hasta el día ${fecha}</td>
+	</tr>
+	<tr>
+		<td><br />
+		<table border="1" align="center" cellpadding="1" cellspacing="1"
+			style="border-collapse: collapse;" width="500px">
+			<tr>
+				<th colspan="5" bgcolor="#D50032" style="color: White">Recargas a InterCable</th>
+			</tr>
+			<tr style="color: White">
+				<th bgcolor="#EEEEEE"></th>
+				<th bgcolor="#D50032" width="60px">Abonado</th>
+				<th bgcolor="#D50032" width="60px">Tarjetas</th>
+				<th bgcolor="#D50032" width="60px">% Tarjetas</th>
+			</tr>
+			
+]
+[2014Jun04 10:09:32,431][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:83][Componente CONSTANTE encontrado: <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Recargas Web</title>
+</head>
+<body>
+<table style="font-family: Arial; font-size: 12px;" width="100%">
+	<tr>
+		<td style="font-size: 14px;">Resultado de las Recargas otras Instituciones (INTERCABLE) realizadas hasta el día ]
+[2014Jun04 10:09:32,434][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: fecha]
+[2014Jun04 10:09:32,438][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </td>
+	</tr>
+	<tr>
+		<td><br />
+		<table border="1" align="center" cellpadding="1" cellspacing="1"
+			style="border-collapse: collapse;" width="500px">
+			<tr>
+				<th colspan="5" bgcolor="#D50032" style="color: White">Recargas a InterCable</th>
+			</tr>
+			<tr style="color: White">
+				<th bgcolor="#EEEEEE"></th>
+				<th bgcolor="#D50032" width="60px">Abonado</th>
+				<th bgcolor="#D50032" width="60px">Tarjetas</th>
+				<th bgcolor="#D50032" width="60px">% Tarjetas</th>
+			</tr>
+			
+]
+[2014Jun04 10:09:32,441][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:50][Iniciando proceso de compilacion de comando: 			<tr bgcolor="White">
+				<td><b>Total general</b></td>
+				<td align="right" width="60px"><b>${TotalGSM}</b></td>
+				<!--<td align="right" width="60px"><b>${PorcentajeTotalGSM}%</b></td>-->
+				<td align="right" width="60px"><b>${TotalTarjeta}</b></td>
+				<td align="right" width="60px"><b>${PorcentajeTotalTar}%</b></td>
+			</tr>		
+		</table>
+		<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<table border="1" align="center" cellpadding="1" cellspacing="1"
+			style="border-collapse: collapse;" width="500px">
+			<tr>
+				<th colspan="5" bgcolor="#D50032" style="color: White">Montos recargados</th>
+			</tr>
+			<tr style="color: White">
+				<th bgcolor="#EEEEEE"></th>
+				<th bgcolor="#D50032" width="60px">Tarjetas</th>
+				<!--<th bgcolor="#D50032" width="60px">%</th>-->
+				<th bgcolor="#D50032" width="60px">Monto</th>
+				<!--<th bgcolor="#D50032" width="60px">%</th>-->
+				<th bgcolor="#D50032" width="60px">% Monto</th>
+			</tr>]
+[2014Jun04 10:09:32,445][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:83][Componente CONSTANTE encontrado: 			<tr bgcolor="White">
+				<td><b>Total general</b></td>
+				<td align="right" width="60px"><b>]
+[2014Jun04 10:09:32,448][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: TotalGSM]
+[2014Jun04 10:09:32,450][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </b></td>
+				<!--<td align="right" width="60px"><b>]
+[2014Jun04 10:09:32,453][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: PorcentajeTotalGSM]
+[2014Jun04 10:09:32,456][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: %</b></td>-->
+				<td align="right" width="60px"><b>]
+[2014Jun04 10:09:32,458][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: TotalTarjeta]
+[2014Jun04 10:09:32,461][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </b></td>
+				<td align="right" width="60px"><b>]
+[2014Jun04 10:09:32,464][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: PorcentajeTotalTar]
+[2014Jun04 10:09:32,467][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: %</b></td>
+			</tr>		
+		</table>
+		<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<table border="1" align="center" cellpadding="1" cellspacing="1"
+			style="border-collapse: collapse;" width="500px">
+			<tr>
+				<th colspan="5" bgcolor="#D50032" style="color: White">Montos recargados</th>
+			</tr>
+			<tr style="color: White">
+				<th bgcolor="#EEEEEE"></th>
+				<th bgcolor="#D50032" width="60px">Tarjetas</th>
+				<!--<th bgcolor="#D50032" width="60px">%</th>-->
+				<th bgcolor="#D50032" width="60px">Monto</th>
+				<!--<th bgcolor="#D50032" width="60px">%</th>-->
+				<th bgcolor="#D50032" width="60px">% Monto</th>
+			</tr>]
+[2014Jun04 10:09:32,471][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:50][Iniciando proceso de compilacion de comando: 			<tr bgcolor="White">
+				<td><b>Total recargado (Bs.)</b></td>
+				<td align="right" width="60px"><b>${TotalTarjetas}</b></td>
+				<td align="right" width="60px"><b>${MontoRecargado}</b></td>				
+				<td align="right" width="60px"><b>${PorcentajeTotalC}%</b></td>
+			</tr>
+		</table>
+		<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<table border="1" align="center" cellpadding="1" cellspacing="1"
+			style="border-collapse: collapse;" width="500px">
+			<tr>
+				<th colspan="3" bgcolor="#D50032" style="color: White">Categorías
+				de recargas exitosas</th>
+			</tr>
+			<tr style="color: White">
+				<th bgcolor="#EEEEEE"></th>
+				<th bgcolor="#D50032" width="60px">Total</th>
+				<th bgcolor="#D50032" width="60px">%</th>
+			</tr>]
+[2014Jun04 10:09:32,474][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:83][Componente CONSTANTE encontrado: 			<tr bgcolor="White">
+				<td><b>Total recargado (Bs.)</b></td>
+				<td align="right" width="60px"><b>]
+[2014Jun04 10:09:32,477][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: TotalTarjetas]
+[2014Jun04 10:09:32,479][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </b></td>
+				<td align="right" width="60px"><b>]
+[2014Jun04 10:09:32,482][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: MontoRecargado]
+[2014Jun04 10:09:32,485][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </b></td>				
+				<td align="right" width="60px"><b>]
+[2014Jun04 10:09:32,488][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: PorcentajeTotalC]
+[2014Jun04 10:09:32,491][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: %</b></td>
+			</tr>
+		</table>
+		<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<table border="1" align="center" cellpadding="1" cellspacing="1"
+			style="border-collapse: collapse;" width="500px">
+			<tr>
+				<th colspan="3" bgcolor="#D50032" style="color: White">Categorías
+				de recargas exitosas</th>
+			</tr>
+			<tr style="color: White">
+				<th bgcolor="#EEEEEE"></th>
+				<th bgcolor="#D50032" width="60px">Total</th>
+				<th bgcolor="#D50032" width="60px">%</th>
+			</tr>]
+[2014Jun04 10:09:32,494][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:50][Iniciando proceso de compilacion de comando: 			<tr bgcolor="${ColorRegistro}">
+				<td width="390px">${Categoria}</td>
+				<td align="right" width="60px">${Cantidad}</td>
+				<td align="right" width="60px">${Porcentaje}%</td>
+			</tr>
+]
+[2014Jun04 10:09:32,496][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:83][Componente CONSTANTE encontrado: 			<tr bgcolor="]
+[2014Jun04 10:09:32,499][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: ColorRegistro]
+[2014Jun04 10:09:32,501][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: ">
+				<td width="390px">]
+[2014Jun04 10:09:32,503][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: Categoria]
+[2014Jun04 10:09:32,506][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </td>
+				<td align="right" width="60px">]
+[2014Jun04 10:09:32,508][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: Cantidad]
+[2014Jun04 10:09:32,510][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </td>
+				<td align="right" width="60px">]
+[2014Jun04 10:09:32,513][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: Porcentaje]
+[2014Jun04 10:09:32,514][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: %</td>
+			</tr>
+]
+[2014Jun04 10:09:32,516][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:50][Iniciando proceso de compilacion de comando: 			<tr bgcolor="White">
+				<td width="390px"><b>${Categoria}</b></td>
+				<td align="right" width="60px"><b>${Cantidad}</b></td>
+				<td align="right" width="60px"><b>${Porcentaje}%</b></td>
+			</tr>
+]
+[2014Jun04 10:09:32,518][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:83][Componente CONSTANTE encontrado: 			<tr bgcolor="White">
+				<td width="390px"><b>]
+[2014Jun04 10:09:32,520][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: Categoria]
+[2014Jun04 10:09:32,522][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </b></td>
+				<td align="right" width="60px"><b>]
+[2014Jun04 10:09:32,523][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: Cantidad]
+[2014Jun04 10:09:32,525][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </b></td>
+				<td align="right" width="60px"><b>]
+[2014Jun04 10:09:32,527][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: Porcentaje]
+[2014Jun04 10:09:32,528][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: %</b></td>
+			</tr>
+]
+[2014Jun04 10:09:32,531][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:50][Iniciando proceso de compilacion de comando: 			<tr bgcolor="White">
+				<td><b>${TotalPorCanal}</b></td>
+				<td align="right" width="60px"><b>${SubtotalGSM}</b></td>
+				<td align="right" width="60px"><b>${SubtotalTarjeta}</b></td>
+				<td align="right" width="60px"><b>${PorcentajeSubtotalTar}%</b></td>
+			</tr>
+			<tr bgcolor="#DCDCDC">
+				<td>${ExitoPorCanal}</td>
+				<td align="right" width="60px">${ExitoGSM}</td>
+				<td align="right" width="60px">${ExitoTarjeta}</td>
+				<td align="right" width="60px">${PorcentajeExTar}%</td>
+			</tr>
+			<tr bgcolor="$#EEEEEE">
+				<td>${FallaPorCanal}</td>
+				<td align="right" width="60px">${FallaGSM}</td>
+				<td align="right" width="60px">${FallaTarjeta}</td>
+				<td align="right" width="60px">${PorcentajeFaTar}%</td>
+			</tr>]
+[2014Jun04 10:09:32,533][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:83][Componente CONSTANTE encontrado: 			<tr bgcolor="White">
+				<td><b>]
+[2014Jun04 10:09:32,535][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: TotalPorCanal]
+[2014Jun04 10:09:32,536][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </b></td>
+				<td align="right" width="60px"><b>]
+[2014Jun04 10:09:32,538][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: SubtotalGSM]
+[2014Jun04 10:09:32,540][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </b></td>
+				<td align="right" width="60px"><b>]
+[2014Jun04 10:09:32,542][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: SubtotalTarjeta]
+[2014Jun04 10:09:32,543][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </b></td>
+				<td align="right" width="60px"><b>]
+[2014Jun04 10:09:32,545][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: PorcentajeSubtotalTar]
+[2014Jun04 10:09:32,546][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: %</b></td>
+			</tr>
+			<tr bgcolor="#DCDCDC">
+				<td>]
+[2014Jun04 10:09:32,548][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: ExitoPorCanal]
+[2014Jun04 10:09:32,550][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </td>
+				<td align="right" width="60px">]
+[2014Jun04 10:09:32,551][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: ExitoGSM]
+[2014Jun04 10:09:32,553][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </td>
+				<td align="right" width="60px">]
+[2014Jun04 10:09:32,554][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: ExitoTarjeta]
+[2014Jun04 10:09:32,556][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </td>
+				<td align="right" width="60px">]
+[2014Jun04 10:09:32,558][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: PorcentajeExTar]
+[2014Jun04 10:09:32,559][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: %</td>
+			</tr>
+			<tr bgcolor="]
+[2014Jun04 10:09:32,561][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:83][Componente CONSTANTE encontrado: #EEEEEE">
+				<td>]
+[2014Jun04 10:09:32,562][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: FallaPorCanal]
+[2014Jun04 10:09:32,564][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </td>
+				<td align="right" width="60px">]
+[2014Jun04 10:09:32,566][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: FallaGSM]
+[2014Jun04 10:09:32,567][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </td>
+				<td align="right" width="60px">]
+[2014Jun04 10:09:32,569][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: FallaTarjeta]
+[2014Jun04 10:09:32,570][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </td>
+				<td align="right" width="60px">]
+[2014Jun04 10:09:32,572][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: PorcentajeFaTar]
+[2014Jun04 10:09:32,574][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: %</td>
+			</tr>]
+[2014Jun04 10:09:32,576][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:50][Iniciando proceso de compilacion de comando: 			<tr bgcolor="${ColorRegistro}">
+				<td width="420px">${Categoria}</td>
+				<td align="right" width="60px">${Tarjetas}</td>
+				<td align="right" width="60px">${Cantidad}</td>
+				<td align="right" width="60px">${PorcentajeC}%</td>
+			</tr>
+]
+[2014Jun04 10:09:32,578][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:83][Componente CONSTANTE encontrado: 			<tr bgcolor="]
+[2014Jun04 10:09:32,579][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: ColorRegistro]
+[2014Jun04 10:09:32,581][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: ">
+				<td width="420px">]
+[2014Jun04 10:09:32,583][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: Categoria]
+[2014Jun04 10:09:32,584][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </td>
+				<td align="right" width="60px">]
+[2014Jun04 10:09:32,586][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: Tarjetas]
+[2014Jun04 10:09:32,587][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </td>
+				<td align="right" width="60px">]
+[2014Jun04 10:09:32,589][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: Cantidad]
+[2014Jun04 10:09:32,591][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </td>
+				<td align="right" width="60px">]
+[2014Jun04 10:09:32,592][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: PorcentajeC]
+[2014Jun04 10:09:32,594][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: %</td>
+			</tr>
+]
+[2014Jun04 10:09:32,596][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:50][Iniciando proceso de compilacion de comando: 			<tr bgcolor="White">
+			    <b>
+				<td width="420px"><b>${Categoria}</b></td>
+				<td align="right" width="60px"><b>${Tarjetas}</b></td>
+				<td align="right" width="60px"><b>${Cantidad}</b></td>
+				<td align="right" width="60px"><b>${PorcentajeC}%</b></td>
+				</b>
+			</tr>
+]
+[2014Jun04 10:09:32,597][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:83][Componente CONSTANTE encontrado: 			<tr bgcolor="White">
+			    <b>
+				<td width="420px"><b>]
+[2014Jun04 10:09:32,599][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: Categoria]
+[2014Jun04 10:09:32,600][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </b></td>
+				<td align="right" width="60px"><b>]
+[2014Jun04 10:09:32,602][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: Tarjetas]
+[2014Jun04 10:09:32,603][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </b></td>
+				<td align="right" width="60px"><b>]
+[2014Jun04 10:09:32,605][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: Cantidad]
+[2014Jun04 10:09:32,606][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </b></td>
+				<td align="right" width="60px"><b>]
+[2014Jun04 10:09:32,608][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: PorcentajeC]
+[2014Jun04 10:09:32,609][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: %</b></td>
+				</b>
+			</tr>
+]
+[2014Jun04 10:09:32,612][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:50][Iniciando proceso de compilacion de comando: 			<tr bgcolor="White">
+				<td ><b>${Categoria}</b></td>
+				<td align="right" width="60px"><b>${Cantidad}</b></td>
+				<td align="right" width="60px"><b>${Porcentaje}%</b></td>
+			</tr>
+			<tr bgcolor="#EEEEEE">
+				<td>Bloqueos por monto de recarga excedido (Bs. ${montoRecarga})</td>
+				<td align="right" width="60px">${BloqueoMonto}</td>
+				<td align="right" width="60px">${PorcentajeBM}%</td>
+			</tr>
+			<tr bgcolor="#DCDCDC">
+				<td>Bloqueos por cantidad de recargas fallidas (${fallas})</td>
+				<td align="right" width="60px">${BloqueoFalla}</td>
+				<td align="right" width="60px">${PorcentajeBF}%</td>
+			</tr>]
+[2014Jun04 10:09:32,613][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:83][Componente CONSTANTE encontrado: 			<tr bgcolor="White">
+				<td ><b>]
+[2014Jun04 10:09:32,615][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: Categoria]
+[2014Jun04 10:09:32,616][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </b></td>
+				<td align="right" width="60px"><b>]
+[2014Jun04 10:09:32,618][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: Cantidad]
+[2014Jun04 10:09:32,619][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </b></td>
+				<td align="right" width="60px"><b>]
+[2014Jun04 10:09:32,621][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: Porcentaje]
+[2014Jun04 10:09:32,622][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: %</b></td>
+			</tr>
+			<tr bgcolor="#EEEEEE">
+				<td>Bloqueos por monto de recarga excedido (Bs. ]
+[2014Jun04 10:09:32,624][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: montoRecarga]
+[2014Jun04 10:09:32,625][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: )</td>
+				<td align="right" width="60px">]
+[2014Jun04 10:09:32,627][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: BloqueoMonto]
+[2014Jun04 10:09:32,628][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </td>
+				<td align="right" width="60px">]
+[2014Jun04 10:09:32,630][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: PorcentajeBM]
+[2014Jun04 10:09:32,632][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: %</td>
+			</tr>
+			<tr bgcolor="#DCDCDC">
+				<td>Bloqueos por cantidad de recargas fallidas (]
+[2014Jun04 10:09:32,633][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: fallas]
+[2014Jun04 10:09:32,635][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: )</td>
+				<td align="right" width="60px">]
+[2014Jun04 10:09:32,636][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: BloqueoFalla]
+[2014Jun04 10:09:32,642][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: </td>
+				<td align="right" width="60px">]
+[2014Jun04 10:09:32,644][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:63][Componente VARIABLE encontrado: PorcentajeBF]
+[2014Jun04 10:09:32,646][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:74][Componente CONSTANTE encontrado: %</td>
+			</tr>]
+[2014Jun04 10:09:32,648][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:50][Iniciando proceso de compilacion de comando: 		</table>
+		<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<table border="1" align="center" cellpadding="1" cellspacing="1"
+			style="border-collapse: collapse;" width="500px">
+			<tr>
+				<th colspan="3" bgcolor="#D50032" style="color: White">GSM
+				bloqueados</th>
+			</tr>
+			<tr style="color: White">
+				<th bgcolor="#EEEEEE"></th>
+				<th bgcolor="#D50032" width="60px">Total</th>
+				<th bgcolor="#D50032" width="60px">%</th>
+			</tr>
+			
+]
+[2014Jun04 10:09:32,650][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:83][Componente CONSTANTE encontrado: 		</table>
+		<br />
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<table border="1" align="center" cellpadding="1" cellspacing="1"
+			style="border-collapse: collapse;" width="500px">
+			<tr>
+				<th colspan="3" bgcolor="#D50032" style="color: White">GSM
+				bloqueados</th>
+			</tr>
+			<tr style="color: White">
+				<th bgcolor="#EEEEEE"></th>
+				<th bgcolor="#D50032" width="60px">Total</th>
+				<th bgcolor="#D50032" width="60px">%</th>
+			</tr>
+			
+]
+[2014Jun04 10:09:32,651][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:50][Iniciando proceso de compilacion de comando: 		</table>
+		<br />
+		<hr />
+		</td>
+	</tr>
+</table>
+</body>
+</html>]
+[2014Jun04 10:09:32,653][DEBUG][][compileCmd NameSustitutionCmdAdapter.java:83][Componente CONSTANTE encontrado: 		</table>
+		<br />
+		<hr />
+		</td>
+	</tr>
+</table>
+</body>
+</html>]
+[2014Jun04 10:09:32,655][INFO ][][init MailController.java:205][Se Cargaron todos los datos de ConfiProperties]
+[2014Jun04 10:09:32,656][INFO ][][execute MailController.java:217][Inicio de generacion de reporte de Recargas Web]
+[2014Jun04 10:09:39,788][DEBUG][][execute DBListReportDelegator.java:92][Se obtuvo la conexion al DataSource. Accesando a la Base de Datos]
+[2014Jun04 10:09:45,169][INFO ][][execute DBListReportDelegator.java:108][Delegator DBListReportDelegator executado con exito]
+[2014Jun04 10:09:45,315][DEBUG][][execute DBReportDelegator.java:88][Se obtuvo la conexion al DataSource. Accesando a la Base de Datos]
+[2014Jun04 10:09:45,462][INFO ][][execute DBReportDelegator.java:97][Delegator DBReportDelegator executado con exito]
+[2014Jun04 10:09:45,538][DEBUG][][execute DBListReportDelegator.java:92][Se obtuvo la conexion al DataSource. Accesando a la Base de Datos]
+[2014Jun04 10:09:45,656][INFO ][][execute DBListReportDelegator.java:108][Delegator DBListReportDelegator executado con exito]
+[2014Jun04 10:09:45,661][INFO ][][execute MailController.java:221][ReporteVO creado con exito, se procedera a crear el text/html]
+[2014Jun04 10:09:45,683][DEBUG][][assembly NameSustitutionCmdAdapter.java:201][Ensamblando lista de COMPONENTES para la construccion del COMANDO]
+[2014Jun04 10:09:45,754][DEBUG][][execute DBReportDelegator.java:88][Se obtuvo la conexion al DataSource. Accesando a la Base de Datos]
+[2014Jun04 10:09:45,866][INFO ][][execute DBReportDelegator.java:97][Delegator DBReportDelegator executado con exito]
+[2014Jun04 10:09:45,926][DEBUG][][execute DBReportDelegator.java:88][Se obtuvo la conexion al DataSource. Accesando a la Base de Datos]
+[2014Jun04 10:09:46,017][INFO ][][execute DBReportDelegator.java:97][Delegator DBReportDelegator executado con exito]
+[2014Jun04 10:09:46,079][DEBUG][][execute DBReportDelegator.java:88][Se obtuvo la conexion al DataSource. Accesando a la Base de Datos]
+[2014Jun04 10:09:46,189][INFO ][][execute DBReportDelegator.java:97][Delegator DBReportDelegator executado con exito]
+[2014Jun04 10:09:46,235][DEBUG][][execute DBReportDelegator.java:88][Se obtuvo la conexion al DataSource. Accesando a la Base de Datos]
+[2014Jun04 10:09:46,292][INFO ][][execute DBReportDelegator.java:97][Delegator DBReportDelegator executado con exito]
+[2014Jun04 10:09:46,331][DEBUG][][execute DBReportDelegator.java:88][Se obtuvo la conexion al DataSource. Accesando a la Base de Datos]
+[2014Jun04 10:09:46,386][INFO ][][execute DBReportDelegator.java:97][Delegator DBReportDelegator executado con exito]
+[2014Jun04 10:09:46,422][DEBUG][][execute DBReportDelegator.java:88][Se obtuvo la conexion al DataSource. Accesando a la Base de Datos]
+[2014Jun04 10:09:46,475][INFO ][][execute DBReportDelegator.java:97][Delegator DBReportDelegator executado con exito]
+[2014Jun04 10:09:46,479][DEBUG][][assembly NameSustitutionCmdAdapter.java:201][Ensamblando lista de COMPONENTES para la construccion del COMANDO]
+[2014Jun04 10:09:46,481][DEBUG][][assembly NameSustitutionCmdAdapter.java:201][Ensamblando lista de COMPONENTES para la construccion del COMANDO]
+[2014Jun04 10:09:46,482][DEBUG][][assembly NameSustitutionCmdAdapter.java:201][Ensamblando lista de COMPONENTES para la construccion del COMANDO]
+[2014Jun04 10:09:46,484][DEBUG][][assembly NameSustitutionCmdAdapter.java:201][Ensamblando lista de COMPONENTES para la construccion del COMANDO]
+[2014Jun04 10:09:46,485][INFO ][][buildBody MailController.java:506][-----ANTES---if(disponibleRecargasOpcion.equalsIgnoreCase(True))]
+[2014Jun04 10:09:46,486][DEBUG][][assembly NameSustitutionCmdAdapter.java:201][Ensamblando lista de COMPONENTES para la construccion del COMANDO]
+[2014Jun04 10:09:46,487][DEBUG][][assembly NameSustitutionCmdAdapter.java:201][Ensamblando lista de COMPONENTES para la construccion del COMANDO]
+[2014Jun04 10:09:46,488][DEBUG][][assembly NameSustitutionCmdAdapter.java:201][Ensamblando lista de COMPONENTES para la construccion del COMANDO]
+[2014Jun04 10:09:46,489][DEBUG][][assembly NameSustitutionCmdAdapter.java:201][Ensamblando lista de COMPONENTES para la construccion del COMANDO]
+[2014Jun04 10:09:46,490][INFO ][][execute MailController.java:225][Correo construido con exito en formato html]
+[2014Jun04 10:09:47,244][DEBUG][][doPost EmailDelegator.java:59][El mensaje para: diego_leal@digitel.com.ve;carlos_perdigon@digitel.com.ve;Douglas_Uzcategui@digitel.com.ve;Naila_Carvajal@digitel.com.ve; se envÃ­o satisfactoriamente.]
+[2014Jun04 10:09:47,246][INFO ][][execute MailController.java:230][Email enviado con exito]
